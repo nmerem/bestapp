@@ -1,0 +1,755 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    background: linear-gradient(to bottom, #fff7f4, #fff7f2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+header .left h1{
+    cursor: pointer;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+header .left{
+    color: blue;
+}
+header .middle ul{
+    display: flex;
+}
+header .middle ul li{
+    padding: 20px;
+}
+header .middle ul li a{
+    font-size: 20px;
+    color: rgb(97, 96, 96);
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header .right{
+    display: flex;
+    align-items: center;
+}
+header .right .first{
+    margin-right: 10px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 4px;
+}
+header .second{
+    display: flex;
+    background-color: blue;
+    color: white;
+    padding: 18px 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+header .second i{
+    margin-right: 10px;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #fff5ec, #fcf3f4);
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 50px;
+}
+.banner .mybannerleft{
+    width: 40%;
+}
+.banner .mybannerleft .paragragh{
+    color: blue;
+    font-weight: 800;
+}
+.banner .mybannerleft .myh1 h1{
+    font-size: 68px;
+}
+.banner .mybannerleft .myp p{
+    font-size: 22px;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+}
+.getstart{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    width: 200px;
+    justify-content: center;
+    padding: 20px 30px;
+    color: white;
+    border-radius: 7px;
+}
+.getstart p{
+    padding-bottom: 0;
+    width: 100px;
+
+
+}
+.banner .bannerright{
+    width: 60%;
+    position: relative;
+}
+.banner .mybannerright .image1{
+    width: 150px;
+    left: 190px;
+    top: -110px;
+    position: relative;
+}
+.banner .mybannerright .image1 img{
+    width: 100% 
+}
+.banner .mybannerright .image2 img{
+    width: 200%;
+}
+.banner .mybannerright .image3{
+    width: 200%;
+}
+.banner .mybannerright .image2{
+    width: 150px;
+    top: -210px;
+    z-index: 40;
+    position: relative;
+    right: -260px; 
+}
+.banner .mybannerright .image3{
+    width: 600px;
+    position: relative;
+    right: 70px;
+    bottom: 450px;
+}
+.banner.mybannerright.image.img3 {
+    left: 0;
+    
+    width: 100%;
+}
+.banner.banner.mybannerright.image.img2{
+    bottom: -50;
+}
+.mycourses{
+    width: 100%;
+    height: 100vh;
+    font-size: 20px;
+}
+
+.wrap {
+    background-color: white;
+}
+
+.wrap .icon {
+    padding: 20px;
+}
+
+.wrap .icon .the_nav {
+    display: flex;
+    width: 300px;
+    background-color: grey;
+    align-items: center;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 7px;
+    /* justify-content: center; */
+}
+    
+.wrap .icon .the_nav .briefcase {
+    color: blue;
+    background-color: white;
+    margin-right: 10px;
+    padding: 7px;
+    border-radius: 5px;
+}
+.icon-contain {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.icon .the_nav:hover{
+    background-color: blue;
+    color: white;
+
+
+}
+.About{
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.About .left{
+    width: 50%;
+    position: relative;
+
+}
+.About .left .photo1{
+   position: relative;
+   left: -180px;
+   top: 120px;
+
+}
+.About .left .photo2{
+    position: relative;
+    left: -50px;
+    z-index: 10;
+    
+}
+.About .left .photo3{
+    width: 100px;
+    position: relative;
+    right: 100px;
+    top: 200px;
+    z-index: 999;
+
+}
+.Aboutright{
+    width: 50%;
+    height: 50vh;
+    position: relative;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    left: 30px;
+    top: 50px;
+    
+}
+.details{
+    justify-content: center;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+
+}
+.icon-details{
+    justify-content: center;
+    font-size: 15px;
+    margin: 10px;
+    position: relative;
+    align-items: center;
+    justify-items: center;
+
+}
+.icon-details .industry .h4{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    justify-content: center;
+}
+.AboutUs{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+} 
+.courses{
+    line-height: 2rem;
+    width: 100vw;
+    height: 200vh;
+    margin-top: 100px;
+    background-color: rgb(163, 154, 154);
+    padding: 100px;
+    text-align: center;
+    background: #f0ebf2;
+
+}
+.courses h3{
+    color: blue;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+
+
+}
+.course{
+    width: 100%;
+    height: 100px ;
+    margin-top: 10px;
+}
+.course h1{
+    color: black;
+    font-size: 60px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.inside{
+    width: 400px;
+    height: 500px;
+    background-color: #faf6f6;
+    border-radius: 12px;
+    margin: 10px;
+    padding-left: 40px;
+    padding: 10px;
+
+}
+.inside-pic{
+    width: 350px;
+    height: 220.92px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+     
+}
+.inside-pic img{
+    width: 90%;
+    overflow: hidden;
+    /* height: 270px; */
+    transition: all .5s ease-out;
+
+}
+.inside-pic img:hover{
+    transform: scale(1.1);
+}
+.inside-pic p{
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    align-items: center;
+    width: 90px;
+    /* height: 30px; */
+    color: blue;
+    padding-left: 5px;
+    font-size: 15px;
+    padding: 5px;
+    position: relative;
+    border-radius: 5px;
+    top: -258px;
+}
+.inside-pic i {
+    margin-top: 20px;
+    margin-left: 250px;
+    color: white;
+    background-color: grey;
+    height: 25px;
+    width: 25px;
+    padding: 6px;
+    border-radius: 12px;
+    font-size: 12px;
+    position: relative;
+    top: -300px;
+}
+.outside i{
+    /* position: relative; */
+    bottom: 210px;
+    /* left: 46px; */
+    color: rgb(133, 130, 130);
+    font-size: 15px;
+
+}
+.outside{
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.outside p{
+    color: #7a7979;
+    font-size: 15px;
+    /* text-align: center; */
+    display: inline-block;
+    /* width: 0px;
+    height: 0px; */
+    
+}
+.outsideline p{
+    /* position: relative; */
+    bottom: 210px;
+    left: 150px;
+    font-size: 30px;
+    color: yellow;
+    display: inline-block;
+    padding-bottom: 20px;
+    bottom: 210px;
+}
+
+.tea{
+    font-size: 22px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.low{
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    display: block;
+    color: #ffff00c4;
+}
+.tea1{
+    text-align: right;
+    right: 50px;
+    padding-top: 5px;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.719);
+    margin: 20px;
+}
+.container33{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 75vh);
+    gap:50px;
+    /* margin: 70px; */
+    /* padding-right: 70px; */
+    position: absolute;
+
+}
+.sign{
+    color: blue;
+    font-size: 20px;
+    display: block;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    margin-bottom: 5px;
+    
+}
+.sign1{
+    text-align: right;
+    right: 50px;
+    padding-top: 5px;
+    display: inline-block;
+    text-decoration: line-through;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.733);
+
+}   
+.people{
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.74);
+    padding: 5px;
+
+}
+.box{
+    background-color: rgba(0, 0, 255, 0.603);
+    width: 140px;
+    height: 40px;
+    color: rgba(255, 255, 255, 0.658);
+    font-size: 15px;
+    margin-right: 70px;
+    text-align: center;
+    justify-content: center;
+
+}
+.workshop{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 100px;
+    background: linear-gradient(to bottom,#525de0,#525de0);
+}
+.workshop_left{
+    width: 50%;
+
+}
+.workshop .workshop_left p{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.workshop .workshop_left h2{
+    padding-top: 25px;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+
+}
+.workshop_left .lorem p{
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.workshop_left .botton{
+    display: flex;
+    color: blue;
+    background-color: white;
+    margin: 50px 30px;
+    width: 30px;
+    height: 40px;
+    align-items: center; 
+    border-radius: 7px;
+}
+.workshop_left .botton:hover{
+    color: white;
+    background-color: burlywood;
+    cursor: pointer;
+}
+.workshop .workshop_right{
+    width: 50%;
+    position: relative;
+}
+.workshop_right .image{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+
+    
+}
+.community1{
+    background-color: rgba(7, 3, 3, 0.658);
+    height: 100vh;
+    width: 100%;
+    margin-top:
+    
+}
+.Community1 .text1 h4{
+    color: blue;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+    padding-top: 20px;
+}
+.Community1 .text1 h3{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+.Community1 .gather{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+.Community1 .gather .all{
+    width: 350px;
+    background-color: #f5f5f5;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+.Community1 .gather .all .ticket{
+    position: relative;
+}
+.Community1 .gather .all .ticket img{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+}
+.Community1.gather.all.ticket h3{
+    position: absolute;
+    z-index: 100;
+    top: 30px;
+    color: white;
+    left: 0;
+    background-color:blue;
+    padding: 5px;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+
+}
+.Community1.gather.all.position{
+    position: absolute;
+    bottom: 40px;
+    display: block;
+    left: 30px;
+    justify-content: space-between;
+}
+.Community1.gather.all.position p{
+    padding-left: 5px;
+    padding-top: 10px;
+    font-size: 17px;
+}
+.Community1.gather.all.position i{
+    color: blue;
+
+}
+.Community1.gather.all.position h3{
+    padding-top: 20px;
+    font-size: 23px;
+    font-weight: 700;
+}
+.Community1.gather.all.position h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.eduhome{
+    height: 120vh;
+    background-color: #231f41;
+    position: relative;
+    color: white;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ }   
+.eduhome.wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 105%;
+    padding-top: 100px;
+    padding-left: 100px;
+    position: relative;
+}
+.eduhome.wrapper.eduhome_first{
+    width: 40%;
+}
+.eduhome.wrapper.eduhome_first h2{
+    color: white;
+    font-siz
+    padding-top: 150px;
+}
+.eduhome.wrapper.eduhome_first p{
+    color: white;
+    padding-top: 20px;
+    font-weight: 600;
+    line-height: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.eduhome.wrapper.eduhome_first .icons{
+    margin-top: 100px;
+}
+.eduhome.wrapper.eduhome_first .icons span{
+    background-color: #393654;
+    color: white;
+    padding: 20px;
+    margin-right: 40px;
+}
+.eduhome.wrapper.eduhome_second{
+    width: 25%;
+}
+.eduhome.wrapper.eduhome_third{
+    width: 20%;
+}
+.eduhome.wrapper.eduhome_fourth{
+    width: 25%;
+}
+.eduhome.eduhome_second.eduhome.eduhome_third{
+    color: white;
+}
+.eduhome.eduhome_second p:hover.eduhome.eduhome_third p:hover{
+    color: rgba(0., 0, 255, 0.61);
+    cursor: pointer;
+}
+.eduhome.copy{
+    bottom: 10px;
+    position: absolute;
+    right: 450px;
+    color: whitesmoke;
+    text-align: end;
+}
+.eduhome_second h4{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    text-align: left;
+    right: 100px;
+    display: inline-block;
+    padding-top: 50px;
+
+}
+.eduhome_second p{
+    line-height: 2rem;
+    text-align: right;
+}
+.eduhome_third h4{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+.eduhome_third p{
+    line-height: 2rem;
+}
+.eduhome_fourth h4{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 25px;
+    
+}
+.eduhome_fourth.address{
+    color: white; 
+    line-height: 2.5rem;
+    padding-right: 20px;
+}
+.eduhome_fourth.address .one i{
+    padding-right: 10px;
+
+}
+.eduhome.eduhome_fourth.address p:hover{
+    color: blue;
+    cursor: pointer;
+}
+.subscribe{
+    background-image: radial-gradient(#ece6f4,#ffe9dc);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.subscribe h4{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.subscribe h2{
+    color: rgba(0, 0, 0, 0.829);
+    font-weight: 700;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler;
+}
+.subscribe .man{
+    text-align: center;
+    padding-top: 100px;
+    line-height: 2.5rem;
+    color: blue;
+}
+.subscribe .form .envelop{
+    padding: 20px;
+    color: white;
+    display: flex;
+}
+.subscribe .form .envelop input{
+    width: 50%;
+    height: 70px;
+    padding: 30px;
+    padding-top: 35px;
+    margin-left: 250px;
+    margin-top: 50px;
+    border-radius: 15px;
+    font-size: 25px;
+}
+.subscribe .form .envelop i{
+    position: absolute;
+    left: 285px;
+    top: 280px;
+
+}
+.subscribe .form .envelop h3{
+    background-color: blue;
+    color: white;
+    position: absolute;
+    right: 420px;
+    height: 70px;
+    width: 200px;
+    top: 260px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    justify-self: center;
+}
+.subscribe .form .envelop h3 i{
+    left: 150px;
+    color: white;
+    top: 30px;
+
+}
+ 
+
+    
+
+
+
+
+
